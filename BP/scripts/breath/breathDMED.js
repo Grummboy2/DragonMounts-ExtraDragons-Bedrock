@@ -1,17 +1,17 @@
 import { world, system } from "@minecraft/server";
 
 const breath = {   
-  "cherry_dragon": "bj:poisonbreath",
-  "f_cherry_dragon": "bj:poisonbreath",
-  "sculk_dragon": "bj:witherbreath",
-  "phantom_dragon": "bj:airbreath",
-  "f_phantom_dragon": "bj:airbreath",
-  "red_dragon": "bj:firebreath"
+  "cherry_dragon": "dragonmountsplus:poisonbreath",
+  "f_cherry_dragon": "dragonmountsplus:poisonbreath",
+  "sculk_dragon": "dragonmountsplus:witherbreath",
+  "phantom_dragon": "dragonmountsplus:airbreath",
+  "f_phantom_dragon": "dragonmountsplus:airbreath",
+  "red_dragon": "dragonmountsplus:firebreath"
 };  
 
 world.afterEvents.itemUse.subscribe(e => {
   const p = e.source;
-  if (e.itemStack.typeId !== "bj:dg_whistle") return;
+  if (e.itemStack.typeId !== "dragonmountsplus:dg_whistle") return;
 
   const r = p.getComponent("minecraft:riding")?.entityRidingOn;
   if (!r) return;
@@ -41,6 +41,6 @@ const spawnPos = {
   }, 0.1);
 }
 
-  p.playSound("dm2.dragon.firebreath", { location: p.location, volume: 0.8 });
+  p.playSound("dragonmountsplus.dragon.firebreath", { location: p.location, volume: 0.8 });
   r.playAnimation("animation.dragon.shoot");
 });

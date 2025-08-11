@@ -2,11 +2,11 @@
   "format_version": 2,
   "header": {
     "description": "Dragon Mounts 2 Needed",
-    "name": "Dragon Mounts Extra Dragons 2.2 - Resource Pack",
+    "name": "Dragon Mounts Extra Dragons 2.3 - Resource Pack",
     "uuid": "79856d7c-aacd-4ed2-8c4a-25c3eba62a8a",
     "version": [
       2,
-      2,
+      3,
       0
     ],
     "min_engine_version": [
@@ -22,7 +22,7 @@
       "uuid": "9f5f1134-fac8-4bd4-bbe2-55c2a41f4bb7",
       "version": [
         2,
-        2,
+        3,
         0
       ]
     }
@@ -32,7 +32,7 @@
       "uuid": "9e0a8f14-36e1-4c48-94f3-2f7b1a0e94ad",
       "version": [
         2,
-        2,
+        3,
         0
       ]
     }

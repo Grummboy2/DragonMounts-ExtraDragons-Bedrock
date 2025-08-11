@@ -4,39 +4,39 @@
 		1,
 		0
 	],
-	"dragonmounts:phantom_dragon_egg": {
+	"dragonmountsplus:phantom_dragon_egg": {
 		"sound": "stone"
 	},
-  "dragonmounts:phantom_scale": {
-    "textures": "dragonmounts_phantom_scale",
+  "dragonmountsplus:phantom_scale": {
+    "textures": "dragonmountsplus_phantom_scale",
     "sound": "netherite"
   },
- 	"dragonmounts:cherry_dragon_egg": {
+ 	"dragonmountsplus:cherry_dragon_egg": {
 		"sound": "stone"
 	},
-  "dragonmounts:cherry_scale": {
-    "textures": "dragonmounts_cherry_scale",
+  "dragonmountsplus:cherry_scale": {
+    "textures": "dragonmountsplus_cherry_scale",
     "sound": "netherite"
   },
-  "dragonmounts:sculk_dragon_egg": {
+  "dragonmountsplus:sculk_dragon_egg": {
 		"sound": "stone"
 	},
-  "dragonmounts:sculk_scale": {
-    "textures": "dragonmounts_sculk_scale",
+  "dragonmountsplus:sculk_scale": {
+    "textures": "dragonmountsplus_sculk_scale",
     "sound": "netherite"
   },
-  "dragonmounts:guardian_dragon_egg": {
+  "dragonmountsplus:guardian_dragon_egg": {
 		"sound": "stone"
 	},
-  "dragonmounts:guardian_scale": {
-    "textures": "dragonmounts_guardian_scale",
+  "dragonmountsplus:guardian_scale": {
+    "textures": "dragonmountsplus_guardian_scale",
     "sound": "netherite"
   },
-  "dragonmounts:red_dragon_egg": {
+  "dragonmountsplus:red_dragon_egg": {
 		"sound": "stone"
 	},
-      "dragonmounts:red_scale": {
-    "textures": "dragonmounts_red_scale",
+      "dragonmountsplus:red_scale": {
+    "textures": "dragonmountsplus_red_scale",
     "sound": "netherite"
   }
 }

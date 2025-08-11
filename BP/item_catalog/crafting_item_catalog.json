@@ -7,15 +7,15 @@
         "groups": [
           {
             "group_identifier": {
-              "icon": "dragonmounts:aether_dragonscales",
+              "icon": "dragonmountsplus:aether_dragonscales",
               "name": "dm:itemGroup.name.scales"
             },
             "items": [
-              "dragonmounts:sculk_dragonscales",
-              "dragonmounts:cherry_dragonscales",
-              "dragonmounts:phantom_dragonscales",
-              "dragonmounts:guardian_dragonscales",
-              "dragonmounts:red_dragonscales"
+              "dragonmountsplus:sculk_dragonscales",
+              "dragonmountsplus:cherry_dragonscales",
+              "dragonmountsplus:phantom_dragonscales",
+              "dragonmountsplus:guardian_dragonscales",
+              "dragonmountsplus:red_dragonscales"
             ]
           }
         ]
@@ -25,15 +25,15 @@
         "groups": [
           {
             "group_identifier": {
-              "icon": "dragonmounts:aether_dragon_egg",
+              "icon": "dragonmountsplus:aether_dragon_egg",
               "name": "dm:itemGroup.name.dragon_eggs"
             },
             "items": [
-              "dragonmounts:sculk_dragon_egg",
-              "dragonmounts:phantom_dragon_egg",
-              "dragonmounts:cherry_dragon_egg",
-              "dragonmounts:guardian_dragon_egg",
-              "dragonmounts:red_dragon_egg"
+              "dragonmountsplus:sculk_dragon_egg",
+              "dragonmountsplus:phantom_dragon_egg",
+              "dragonmountsplus:cherry_dragon_egg",
+              "dragonmountsplus:guardian_dragon_egg",
+              "dragonmountsplus:red_dragon_egg"
             ]
           }
         ]
@@ -43,15 +43,15 @@
         "groups": [
           {
             "group_identifier": {
-              "icon": "dragonmounts:aether_scale",
+              "icon": "dragonmountsplus:aether_scale",
               "name": "dm:itemGroup.name.dragon_scale"
             },
             "items": [
-              "dragonmounts:sculk_scale",
-              "dragonmounts:phantom_scale",
-              "dragonmounts:cherry_scale",
-              "dragonmounts:guardian_scale",
-              "dragonmounts:red_scale"
+              "dragonmountsplus:sculk_scale",
+              "dragonmountsplus:phantom_scale",
+              "dragonmountsplus:cherry_scale",
+              "dragonmountsplus:guardian_scale",
+              "dragonmountsplus:red_scale"
             ]
           }
         ]

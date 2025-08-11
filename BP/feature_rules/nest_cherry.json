@@ -1,0 +1,27 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "minecraft:nest_cherry",
+      "places_feature": "minecraft:nest_cherry"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "cherry_grove"
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 0.5,
+      "x": 0,
+      "y": "query.heightmap(variable.worldx, variable.worldz) - 2",
+      "z": 0,
+      "coordinate_eval_order": "xyz"
+    }
+  }
+}

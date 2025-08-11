@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "dragonmounts:cherry_shield"
+      "identifier": "dragonmountsplus:cherry_shield"
     },
     "tags": [
       "crafting_table"
@@ -14,7 +14,7 @@
     ],
     "key": {
       "A": {
-        "item": "dragonmounts:cherry_dragonscales",
+        "item": "dragonmountsplus:cherry_dragonscales",
         "data": 0
       },
       "B": {

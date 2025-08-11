@@ -1,12 +1,12 @@
 import { world, system } from "@minecraft/server";
 
 const breath = {   
-  "red_dragon": "bj:firebreath"
+  "red_dragon": "dragonmountsplus:firebreath"
 };    
 
 world.afterEvents.itemUse.subscribe(e => {
   const p = e.source;
-  if (e.itemStack.typeId !== "bj:dg_whistle") return;
+  if (e.itemStack.typeId !== "dragonmountsplus:emerald_wand") return;
 
   const r = p.getComponent("minecraft:riding")?.entityRidingOn;
   if (!r) return;
@@ -36,6 +36,6 @@ const spawnPos = {
   }, 0.1);
 }
 
-  p.playSound("dm2.dragon.forestbreath", { location: p.location, volume: 1.1 });
+  p.playSound("dragonmountsplus.dragon.firebreath", { location: p.location, volume: 1.1 });
   r.playAnimation("animation.dragon.shoot");
 });

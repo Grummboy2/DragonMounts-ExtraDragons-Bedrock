@@ -10,31 +10,31 @@
     "cherry_dragon_egg": {
       "textures": ["textures/entity/dragon_eggs/cherry"]
     },
-    "dragonmounts_cherry_scale": {
+    "dragonmountsplus_cherry_scale": {
       "textures": ["textures/blocks/scale_block/cherry"]
     },
     "phantom_dragon_egg": {
       "textures": ["textures/entity/dragon_eggs/phantom"]
     },
-    "dragonmounts_phantom_scale": {
+    "dragonmountsplus_phantom_scale": {
       "textures": ["textures/blocks/scale_block/phantom"]
     },
     "sculk_dragon_egg": {
       "textures": ["textures/entity/dragon_eggs/sculk"]
     },
-    "dragonmounts_sculk_scale": {
+    "dragonmountsplus_sculk_scale": {
       "textures": ["textures/blocks/scale_block/sculk"]
     },
     "guardian_dragon_egg": {
       "textures": ["textures/entity/dragon_eggs/guardian"]
     },
-    "dragonmounts_guardian_scale": {
+    "dragonmountsplus_guardian_scale": {
       "textures": ["textures/blocks/scale_block/guardian"]
     },
     "red_dragon_egg": {
       "textures": ["textures/entity/dragon_eggs/red"]
     },
-    "dragonmounts_red_scale": {
+    "dragonmountsplus_red_scale": {
       "textures": ["textures/blocks/scale_block/red"]
     },
     "phantom_head_block": {

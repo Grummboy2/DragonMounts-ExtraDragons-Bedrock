@@ -11,7 +11,7 @@
 				}
 			},
 			"states": {
-				"dragonmounts:rotation": {
+				"dragonmountsplus:rotation": {
 					"values": {
 						"min": 0,
 						"max": 15
@@ -33,7 +33,7 @@
 				]
 			},
 			"minecraft:custom_components": [
-				"dragonmounts:precise_rotation"
+				"dragonmountsplus:precise_rotation"
 			],
 			"minecraft:destructible_by_explosion": {
 				"explosion_resistance": 4
@@ -44,10 +44,10 @@
 			"minecraft:geometry": {
 				"identifier": "geometry.dragonbase_head1",
 				"bone_visibility": {
-					"bone": "q.block_state('minecraft:block_face') == 'up' && !math.mod(q.block_state('dragonmounts:rotation'), 4)",
-					"rotate_22_5": "q.block_state('minecraft:block_face') == 'up' && !math.mod(q.block_state('dragonmounts:rotation') - 1, 4)",
-					"rotate_45": "q.block_state('minecraft:block_face') == 'up' && !math.mod(q.block_state('dragonmounts:rotation') - 2, 4)",
-					"rotate_67_5": "q.block_state('minecraft:block_face') == 'up' && !math.mod(q.block_state('dragonmounts:rotation') - 3, 4)",
+					"bone": "q.block_state('minecraft:block_face') == 'up' && !math.mod(q.block_state('dragonmountsplus:rotation'), 4)",
+					"rotate_22_5": "q.block_state('minecraft:block_face') == 'up' && !math.mod(q.block_state('dragonmountsplus:rotation') - 1, 4)",
+					"rotate_45": "q.block_state('minecraft:block_face') == 'up' && !math.mod(q.block_state('dragonmountsplus:rotation') - 2, 4)",
+					"rotate_67_5": "q.block_state('minecraft:block_face') == 'up' && !math.mod(q.block_state('dragonmountsplus:rotation') - 3, 4)",
 					"back": "q.block_state('minecraft:block_face') != 'up'"
 				}
 			},
@@ -86,7 +86,7 @@
 		},
 		"permutations": [
 			{
-				"condition": "q.block_state('dragonmounts:rotation') >= 4 || q.block_state('minecraft:block_face') == 'east'",
+				"condition": "q.block_state('dragonmountsplus:rotation') >= 4 || q.block_state('minecraft:block_face') == 'east'",
 				"components": {
 					"minecraft:transformation": {
 						"rotation": [
@@ -98,7 +98,7 @@
 				}
 			},
 			{
-				"condition": "q.block_state('dragonmounts:rotation') >= 8 || q.block_state('minecraft:block_face') == 'south'",
+				"condition": "q.block_state('dragonmountsplus:rotation') >= 8 || q.block_state('minecraft:block_face') == 'south'",
 				"components": {
 					"minecraft:transformation": {
 						"rotation": [
@@ -110,7 +110,7 @@
 				}
 			},
 			{
-				"condition": "q.block_state('dragonmounts:rotation') >= 12 || q.block_state('minecraft:block_face') == 'west'",
+				"condition": "q.block_state('dragonmountsplus:rotation') >= 12 || q.block_state('minecraft:block_face') == 'west'",
 				"components": {
 					"minecraft:transformation": {
 						"rotation": [

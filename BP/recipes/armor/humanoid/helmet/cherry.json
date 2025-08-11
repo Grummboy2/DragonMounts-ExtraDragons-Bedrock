@@ -2,7 +2,7 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "dragonmounts:cherry_dragonscale_helmet"
+			"identifier": "dragonmountsplus:cherry_dragonscale_helmet"
 		},
 		"tags": [
 			"crafting_table"
@@ -13,11 +13,11 @@
 		],
 		"key": {
 			"#": {
-				"item": "dragonmounts:cherry_dragonscales"
+				"item": "dragonmountsplus:cherry_dragonscales"
 			}
 		},
 		"result": {
-			"item": "dragonmounts:cherry_dragonscale_helmet"
+			"item": "dragonmountsplus:cherry_dragonscale_helmet"
 		}
 	}
 }

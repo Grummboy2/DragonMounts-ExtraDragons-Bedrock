@@ -2,7 +2,7 @@
   "format_version": "1.10",
   "minecraft:item": {
     "description": {
-      "identifier": "dragonmounts:cherry_dragonscales",
+      "identifier": "dragonmountsplus:cherry_dragonscales",
       "category": "Nature"
     },
     "components": {

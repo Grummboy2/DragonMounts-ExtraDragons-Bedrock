@@ -1,19 +1,19 @@
 import { world, system } from "@minecraft/server";
 
 const breath = {
-  "cherry_dragon": "bj:poisonbreath1",
-  "f_cherry_dragon": "bj:poisonbreath1",
-  "sculk_dragon": "bj:witherbreath1",
-  "guardian_dragon": "bj:waterbreath1",
-  "f_guardian_dragon": "bj:waterbreath1",
-  "phantom_dragon": "bj:airbreath1",
-  "f_phantom_dragon": "bj:airbreath1",
-  "red_dragon": "bj:firebreath1"
+  "cherry_dragon": "dragonmountsplus:poisonbreath1",
+  "f_cherry_dragon": "dragonmountsplus:poisonbreath1",
+  "sculk_dragon": "dragonmountsplus:witherbreath1",
+  "guardian_dragon": "dragonmountsplus:waterbreath1",
+  "f_guardian_dragon": "dragonmountsplus:waterbreath1",
+  "phantom_dragon": "dragonmountsplus:airbreath1",
+  "f_phantom_dragon": "dragonmountsplus:airbreath1",
+  "red_dragon": "dragonmountsplus:firebreath1"
 };
 
 world.afterEvents.itemUse.subscribe(e => {
   const p = e.source;
-  if (e.itemStack.typeId !== "bj:dg_wand") return;
+  if (e.itemStack.typeId !== "dragonmountsplus:diamond_wand") return;
 
   const r = p.getComponent("minecraft:riding")?.entityRidingOn;
   if (!r) return;
@@ -43,6 +43,6 @@ const spawnPos = {
   }, 0.1);
 }
 
-  p.playSound("bj.dragon.firebreath", { location: p.location, volume: 1 });
+  p.playSound("dragonmountsplus.dragon.firebreath", { location: p.location, volume: 1 });
   r.playAnimation("animation.dragon.shoot");
 });

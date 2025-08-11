@@ -2,11 +2,11 @@ import { world } from "@minecraft/server";
 
 // Cấu hình: mỗi key ứng với một entity
 const summonMap = {
-  "dm2:essence_sculk": "dm2:sculk_dragon",
-  "dm2:essence_phantom": "dm2:phantom_dragon",
-  "dm2:essence_red": "dm2:red_dragon",
-  "dm2:essence_cherry": "dm2:cherry_dragon",
-  "dm2:essence_guardian": "dm2:guardian_dragon"
+  "dragonmountsplus:essence_sculk": "dragonmountsplus:sculk_dragon",
+  "dragonmountsplus:essence_phantom": "dragonmountsplus:phantom_dragon",
+  "dragonmountsplus:essence_red": "dragonmountsplus:red_dragon",
+  "dragonmountsplus:essence_cherry": "dragonmountsplus:cherry_dragon",
+  "dragonmountsplus:essence_guardian": "dragonmountsplus:guardian_dragon"
 };
 
 world.beforeEvents.itemUseOn.subscribe(event => {
@@ -17,7 +17,7 @@ world.beforeEvents.itemUseOn.subscribe(event => {
   if (!player || !item || !block) return;
 
   const entityId = summonMap[item.typeId];
-  if (!entityId || block.typeId !== "dragonmounts:dragon_core") return;
+  if (!entityId || block.typeId !== "dragonmountsplus:dragon_core") return;
 
   const { x, y, z } = block.location;
 
