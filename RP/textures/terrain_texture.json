@@ -1,0 +1,65 @@
+{
+  "resource_pack_name": "pack.name",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "none": {
+      "textures": ["textures/entity/none"]
+    },
+    "cherry_dragon_egg": {
+      "textures": ["textures/entity/dragon_eggs/cherry"]
+    },
+    "dragonmounts_cherry_scale": {
+      "textures": ["textures/blocks/scale_block/cherry"]
+    },
+    "phantom_dragon_egg": {
+      "textures": ["textures/entity/dragon_eggs/phantom"]
+    },
+    "dragonmounts_phantom_scale": {
+      "textures": ["textures/blocks/scale_block/phantom"]
+    },
+    "sculk_dragon_egg": {
+      "textures": ["textures/entity/dragon_eggs/sculk"]
+    },
+    "dragonmounts_sculk_scale": {
+      "textures": ["textures/blocks/scale_block/sculk"]
+    },
+    "guardian_dragon_egg": {
+      "textures": ["textures/entity/dragon_eggs/guardian"]
+    },
+    "dragonmounts_guardian_scale": {
+      "textures": ["textures/blocks/scale_block/guardian"]
+    },
+    "red_dragon_egg": {
+      "textures": ["textures/entity/dragon_eggs/red"]
+    },
+    "dragonmounts_red_scale": {
+      "textures": ["textures/blocks/scale_block/red"]
+    },
+    "phantom_head_block": {
+      "textures": ["textures/entity/phantom_dragon/phantom_dragon"]
+    },
+    "phantom1_head_block": {
+      "textures": ["textures/entity/phantom_dragon/f_phantom_dragon"]
+    },
+    "red_head_block": {
+      "textures": "textures/entity/red_dragon/red_dragon"
+    },
+    "sculk_head_block": {
+      "textures": "textures/entity/sculk_dragon/sculk_dragon"
+    },
+    "cherry_head_block": {
+      "textures": ["textures/entity/cherry_dragon/cherry_dragon"]
+    },
+    "cherry1_head_block": {
+      "textures": ["textures/entity/cherry_dragon/f_cherry_dragon"]
+    },
+    "guardian_head_block": {
+      "textures": ["textures/entity/guardian_dragon/guardian_dragon"]
+    },
+    "guardian1_head_block": {
+      "textures": ["textures/entity/guardian_dragon/f_guardian_dragon"]
+    }
+  }
+}

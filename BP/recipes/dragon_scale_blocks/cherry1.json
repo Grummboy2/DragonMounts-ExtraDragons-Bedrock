@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "block:cherry"
+    },
+    "tags": [ "crafting_table" ],
+  "pattern": [
+    "X"
+  ],
+  "key": {
+    "X": {
+      "item": "dragonmounts:cherry_scale"
+    }
+  },
+    "result": {
+      "item": "dragonmounts:cherry_dragonscales",
+            "count": 9
+    }
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "cherry_dragon_head": {
+      "textures": ["textures/items/eggs/cherry"]
+    },
+    "phantom_dragon_head": {
+      "textures": ["textures/items/eggs/phantom"]
+    },
+    "f_cherry_dragon_head": {
+      "textures": ["textures/items/eggs/cherry_f"]
+    },
+    "f_phantom_dragon_head": {
+      "textures": ["textures/items/eggs/phantom_f"]
+    },
+    "cherrydragon_egg_item": {
+      "textures": ["textures/items/mountdragon_eggs/cherry"]
+    },
+    "phantomdragon_egg_item": {
+      "textures": ["textures/items/mountdragon_eggs/phantom"]
+    },
+    "cherry_dragonscales": {
+      "textures": ["textures/items/scales/cherry_dragon_scales"]
+    },
+    "phantom_dragonscales": {
+      "textures": ["textures/items/scales/phantom_dragon_scales"]
+    },
+    "head_dragon_cherry_item": {
+      "textures": ["textures/items/cherry"]
+    },
+    "head_dragon_phantom_item": {
+      "textures": ["textures/items/phantom"]
+    },
+		"cherry_dragonscale_helmet": {
+			"textures": ["textures/items/armor/cherry/cherry_dragonscale_helmet"]
+		},
+		"cherry_dragonscale_chestplate": {
+			"textures": ["textures/items/armor/cherry/cherry_dragonscale_chestplate"]
+		},
+		"cherry_dragonscale_leggings": {
+			"textures": ["textures/items/armor/cherry/cherry_dragonscale_leggings"]
+		},
+		"cherry_dragonscale_boots": {
+			"textures": ["textures/items/armor/cherry/cherry_dragonscale_boots"]
+		},
+		"cherry_dragon_sword": {
+			"textures": ["textures/items/sword/cherry_dragon_sword"]
+		},
+		"cherry_dragon_axe": {
+			"textures": ["textures/items/axe/cherry_dragon_axe"]
+		},
+		"cherry_dragon_pickaxe": {
+			"textures": ["textures/items/pickaxe/cherry_dragon_pickaxe"]
+		},
+		"cherry_dragon_shovel": {
+			"textures": ["textures/items/shovel/cherry_dragon_shovel"]
+		},
+		"cherry_dragon_hoe": {
+			"textures": ["textures/items/hoe/cherry_dragon_hoe"]
+		},
+		"cherry_shield": { 
+		  "textures": ["textures/items/shield/cherry"]
+		},
+		"cherry_bow": {
+			"textures": ["textures/items/bow/cherry_bow.png"]
+		},
+		"phantom_dragonscale_helmet": {
+			"textures": ["textures/items/armor/phantom/phantom_dragonscale_helmet"]
+		},
+		"phantom_dragonscale_chestplate": {
+			"textures": ["textures/items/armor/phantom/phantom_dragonscale_chestplate"]
+		},
+		"phantom_dragonscale_leggings": {
+			"textures": ["textures/items/armor/phantom/phantom_dragonscale_leggings"]
+		},
+		"phantom_dragonscale_boots": {
+			"textures": ["textures/items/armor/phantom/phantom_dragonscale_boots"]
+		},
+		"phantom_dragon_sword": {
+			"textures": ["textures/items/sword/phantom_dragon_sword"]
+		},
+		"phantom_dragon_axe": {
+			"textures": ["textures/items/axe/phantom_dragon_axe"]
+		},
+		"phantom_dragon_pickaxe": {
+			"textures": ["textures/items/pickaxe/phantom_dragon_pickaxe"]
+		},
+		"phantom_dragon_shovel": {
+			"textures": ["textures/items/shovel/phantom_dragon_shovel"]
+		},
+		"phantom_dragon_hoe": {
+			"textures": ["textures/items/hoe/phantom_dragon_hoe"]
+		},
+		"phantom_shield": { 
+		  "textures": ["textures/items/shield/phantom"]
+		},
+		"phantom_bow": {
+			"textures": ["textures/items/bow/phantom_bow.png"]
+		},
+		"sculk_dragon_head": {
+			"textures": ["textures/items/eggs/sculk"]
+		},
+		"sculkdragon_egg_item": {
+			"textures": ["textures/items/mountdragon_eggs/sculk"]
+		},
+		"sculk_dragonscales": {
+			"textures": ["textures/items/scales/sculk_dragon_scales"]
+		},
+    "head_dragon_sculk_item": {
+      "textures": ["textures/items/sculk"]
+    },
+		"sculk_dragonscale_helmet": {
+			"textures": ["textures/items/armor/sculk/sculk_dragonscale_helmet"]
+		},
+		"sculk_dragonscale_chestplate": {
+			"textures": ["textures/items/armor/sculk/sculk_dragonscale_chestplate"]
+		},
+		"sculk_dragonscale_leggings": {
+			"textures": ["textures/items/armor/sculk/sculk_dragonscale_leggings"]
+		},
+		"sculk_dragonscale_boots": {
+			"textures": ["textures/items/armor/sculk/sculk_dragonscale_boots"]
+		},
+		"sculk_dragon_sword": {
+			"textures": ["textures/items/sword/sculk_dragon_sword"]
+		},
+		"sculk_dragon_axe": {
+			"textures": ["textures/items/axe/sculk_dragon_axe"]
+		},
+		"sculk_dragon_pickaxe": {
+			"textures": ["textures/items/pickaxe/sculk_dragon_pickaxe"]
+		},
+		"sculk_dragon_shovel": {
+			"textures": ["textures/items/shovel/sculk_dragon_shovel"]
+		},
+		"sculk_dragon_hoe": {
+			"textures": ["textures/items/hoe/sculk_dragon_hoe"]
+		},
+		"sculk_shield": { 
+		  "textures": ["textures/items/shield/sculk"]
+		},
+		"sculk_bow": {
+			"textures": ["textures/items/bow/sculk_bow.png"]
+		},
+		"guardian_dragon_head": {
+      "textures": ["textures/items/eggs/guardian"]
+    },
+    "f_guardian_dragon_head": {
+      "textures": ["textures/items/eggs/guardian_f"]
+    },
+    "guardiandragon_egg_item": {
+      "textures": ["textures/items/mountdragon_eggs/guardian"]
+    },
+    "guardian_dragonscales": {
+      "textures": ["textures/items/scales/guardian_dragon_scales"]
+    },
+    "head_dragon_guardian_item": {
+      "textures": ["textures/items/guardian"]
+    },
+		"guardian_dragonscale_helmet": {
+			"textures": ["textures/items/armor/guardian/guardian_dragonscale_helmet"]
+		},
+		"guardian_dragonscale_chestplate": {
+			"textures": ["textures/items/armor/guardian/guardian_dragonscale_chestplate"]
+		},
+		"guardian_dragonscale_leggings": {
+			"textures": ["textures/items/armor/guardian/guardian_dragonscale_leggings"]
+		},
+		"guardian_dragonscale_boots": {
+			"textures": ["textures/items/armor/guardian/guardian_dragonscale_boots"]
+		},
+		"guardian_dragon_sword": {
+			"textures": ["textures/items/sword/guardian_dragon_sword"]
+		},
+		"guardian_dragon_axe": {
+			"textures": ["textures/items/axe/guardian_dragon_axe"]
+		},
+		"guardian_dragon_pickaxe": {
+			"textures": ["textures/items/pickaxe/guardian_dragon_pickaxe"]
+		},
+		"guardian_dragon_shovel": {
+			"textures": ["textures/items/shovel/guardian_dragon_shovel"]
+		},
+		"guardian_dragon_hoe": {
+			"textures": ["textures/items/hoe/guardian_dragon_hoe"]
+		},
+		"guardian_shield": { 
+		  "textures": ["textures/items/shield/guardian"]
+		},
+		"guardian_bow": {
+			"textures": ["textures/items/bow/guardian_bow.png"]
+		},
+		"red_dragon_head": {
+			"textures": ["textures/items/eggs/red"]
+		},
+		"reddragon_egg_item": {
+			"textures": ["textures/items/mountdragon_eggs/red"]
+		},
+		"red_dragonscales": {
+			"textures": ["textures/items/scales/red_dragon_scales"]
+		},
+    "head_dragon_red_item": {
+      "textures": ["textures/items/red"]
+    },
+		"red_dragonscale_helmet": {
+			"textures": ["textures/items/armor/red/red_dragonscale_helmet"]
+		},
+		"red_dragonscale_chestplate": {
+			"textures": ["textures/items/armor/red/red_dragonscale_chestplate"]
+		},
+		"red_dragonscale_leggings": {
+			"textures": ["textures/items/armor/red/red_dragonscale_leggings"]
+		},
+		"red_dragonscale_boots": {
+			"textures": ["textures/items/armor/red/red_dragonscale_boots"]
+		},
+		"red_dragon_sword": {
+			"textures": ["textures/items/sword/red_dragon_sword"]
+		},
+		"red_dragon_axe": {
+			"textures": ["textures/items/axe/red_dragon_axe"]
+		},
+		"red_dragon_pickaxe": {
+			"textures": ["textures/items/pickaxe/red_dragon_pickaxe"]
+		},
+		"red_dragon_shovel": {
+			"textures": ["textures/items/shovel/red_dragon_shovel"]
+		},
+		"red_dragon_hoe": {
+			"textures": ["textures/items/hoe/red_dragon_hoe"]
+		},
+		"red_shield": { 
+		  "textures": ["textures/items/shield/red"]
+		},
+		"red_bow": {
+			"textures": ["textures/items/bow/red_bow.png"]
+		},
+    "essence_phantom": {
+      "textures": "textures/items/essence/essence_phantom"
+    },
+    "essence_red": {
+      "textures": "textures/items/essence/essence_red"
+    },
+    "essence_sculk": {
+      "textures": "textures/items/essence/essence_sculk"
+    },
+    "essence_cherry": {
+      "textures": "textures/items/essence/essence_cherry"
+    },
+    "essence_guardian": {
+      "textures": "textures/items/essence/essence_guardian"
+    }
+  }
+}

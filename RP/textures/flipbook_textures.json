@@ -1,0 +1,32 @@
+[
+ {
+    "flipbook_texture": "textures/blocks/eggs/phantom",
+    "atlas_tile": "phantom_dragon_egg",
+    "frames": [ 0, 1, 2 ], 
+    "ticks_per_frame": 8
+    },
+    {
+    "flipbook_texture": "textures/blocks/eggs/red",
+    "atlas_tile": "red_dragon_egg",
+    "frames": [ 0, 1, 2, 3, 4 ], 
+    "ticks_per_frame": 4
+    },
+    {
+    "flipbook_texture": "textures/blocks/eggs/sculk",
+    "atlas_tile": "sculk_dragon_egg",
+    "frames": [ 0, 1, 2, 3 ], 
+    "ticks_per_frame": 5
+    },
+    {
+    "flipbook_texture": "textures/blocks/eggs/cherry",
+    "atlas_tile": "cherry_dragon_egg",
+    "frames": [ 0, 1, 2 ], 
+    "ticks_per_frame": 8
+    },
+    {
+    "flipbook_texture": "textures/blocks/eggs/guardian",
+    "atlas_tile": "guardian_dragon_egg",
+    "frames": [ 0, 1, 2 ], 
+    "ticks_per_frame": 8
+  }
+]  

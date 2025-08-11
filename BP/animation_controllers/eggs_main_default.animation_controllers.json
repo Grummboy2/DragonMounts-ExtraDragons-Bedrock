@@ -1,0 +1,40 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.eggs.default": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"default_back": "(1)"
+						}
+					],
+					"on_entry": [
+						"/function eggdragon",
+						"/function eggstag",
+				    "/function eggdragonPD",
+						"/function eggstagPD",
+						"/function eggdragonSD",
+						"/function eggstagSD",
+						"/function eggdragonCD",
+						"/function eggstagCD",
+						"/function eggdragonDMED",
+						"/function eggstagDMED",
+						"/function eggdragonGD",
+						"/function eggstagGD",
+						"/function eggdragonRD",
+						"/function eggstagRD"
+					]
+				},
+				"default_back": {
+					"transitions": [
+						{
+							"default": "(1)"
+						}
+					]
+				}
+			}
+		}
+	}
+}
+  

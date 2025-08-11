@@ -1,0 +1,157 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "dragonmounts:dragon_dissolve",
+			"runtime_identifier": "minecraft:ender_dragon",
+			"is_spawnable": false,
+			"is_summonable": false,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"dragonmounts:death": {
+				"minecraft:timer": {
+					"time": 0.0,
+					"looping": true,
+					"time_down_event": {
+						"event": "dragonmounts:death",
+						"target": "self"
+					}
+				}
+			},
+			"dragonmounts:sculk_dragon": {
+				"minecraft:variant": {
+					"value": 0
+		    	}
+		    }
+		  },
+			"dragonmounts:guardian_dragon": {
+				"minecraft:variant": {
+					"value": 1
+			    }
+				}
+			},
+			"dragonmounts:phantom_dragon": {
+				"minecraft:variant": {
+					"value": 2
+			    }
+				}
+			},
+			"dragonmounts:phantom_dragon": {
+				"minecraft:variant": {
+					"value": 3
+				}
+			}
+		},
+		"dragonmounts:red_dragon": {
+				"minecraft:variant": {
+					"value": 4
+				}
+			}
+		},
+		"components": {
+			"minecraft:fire_immune": true,
+			"minecraft:persistent": {},
+			"minecraft:scale": {
+				"value": 1.0
+			},
+			"minecraft:type_family": {
+				"family": [
+					"dragonmounts"
+				]
+			},
+			"minecraft:health": {
+				"value": 16,
+				"max": 16
+			},
+			"minecraft:knockback_resistance": {
+				"value": 100,
+				"max": 100
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "all",
+					"deals_damage": false
+				}
+			},
+			"minecraft:collision_box": {
+				"width": 0.0,
+				"height": 0.0
+			},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": true
+			},
+			"minecraft:timer": {
+				"time": 0.0,
+				"looping": false,
+				"time_down_event": {
+					"event": "minecraft:entity_spawned",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"dragonmounts:death"
+					]
+				},
+				"queue_command": {
+					"command": [
+						"gamerule mobgriefing false"
+					]
+				}
+			},
+			"dragonmounts:death": {
+				"add": {
+					"component_groups": [
+						"dragonmounts:death_end"
+					]
+				},
+				"queue_command": {
+					"command": [
+						"kill @s",
+						"gamerule mobgriefing true"
+					]
+				}
+			},
+			"dragonmounts:sculk_dragon": {
+				"add": {
+					"component_groups": [
+						"dragonmounts:sculk_dragon"
+			    }
+				}
+			},
+			"dragonmounts:red_dragon": {
+				"add": {
+					"component_groups": [
+						"dragonmounts:red_dragon"
+				  }
+				}
+			},
+			"dragonmounts:guardian_dragon": {
+				"add": {
+					"component_groups": [
+						"dragonmounts:guardian_dragon"
+				  }
+				}
+			},
+			"dragonmounts:phantom_dragon": {
+				"add": {
+					"component_groups": [
+						"dragonmounts:phantom_dragon"
+				  }
+				}
+			},
+			"dragonmounts:cherry_dragon": {
+				"add": {
+					"component_groups": [
+						"dragonmounts:cherry_dragon"
+					]
+				}
+			}
+		}
+	}
+}

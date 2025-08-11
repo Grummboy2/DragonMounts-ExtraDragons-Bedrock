@@ -1,0 +1,107 @@
+﻿entity.dragonmounts:phantom_dragon.name=Phantom Dragon	#
+entity.dragonmounts:cherry_dragon.name=Sakura Dragon	#
+entity.dragonmounts:sculk_dragon.name=Sculk Dragon	#
+entity.dragonmounts:guardian_dragon.name=Guardian Dragon	#
+entity.dragonmounts:red_dragon.name=Red Dragon	#
+
+entity.dragonmounts:phantom_dragon_egg.name=Phantom Dragon Egg	#
+entity.dragonmounts:cherry_dragon_egg.name=Sakura Dragon Egg	#
+entity.dragonmounts:sculk_dragon_egg.name=Sculk Dragon Egg	#
+entity.dragonmounts:guardian_dragon_egg.name=Guardian Dragon Egg	#
+entity.dragonmounts:red_dragon_egg.name=Red Dragon Egg	#
+
+item.spawn_egg.entity.dm2:phantom_dragon.name=Phantom Dragon Spawn Egg	#
+item.spawn_egg.entity.dm2:f_phantom_dragon.name=Phantom Dragon Spawn Egg	#
+item.spawn_egg.entity.dm2:cherry_dragon.name=Sakura Dragon Spawn Egg	#
+item.spawn_egg.entity.dm2:f_cherry_dragon.name=Sakura Dragon Spawn Egg	#
+item.spawn_egg.entity.dm2:sculk_dragon.name=Sculk Dragon Spawn Egg	#
+item.spawn_egg.entity.dm2:guardian_dragon.name=Guardian Dragon Spawn Egg	#
+item.spawn_egg.entity.dm2:f_guardian_dragon.name=Guardian Dragon Spawn Egg	#
+item.spawn_egg.entity.dm2:red_dragon.name=Red Dragon Spawn Egg	#
+
+item.dragonmounts:phantom_dragon_egg_spawn.name=Phantom Dragon Egg	#
+item.dragonmounts:cherry_dragon_egg_spawn.name=Sakura Dragon Egg	#
+item.dragonmounts:sculk_dragon_egg_spawn.name=Sculk Dragon Egg	#
+item.dragonmounts:guardian_dragon_egg_spawn.name=Guardian Dragon Egg	#
+item.dragonmounts:red_dragon_egg_spawn.name=Red Dragon Egg	#
+
+tile.dragonmounts:phantom_dragon_egg.name=Phantom Dragon Egg	#
+tile.dragonmounts:cherry_dragon_egg.name=Sakura Dragon Egg	#
+tile.dragonmounts:sculk_dragon_egg.name=Sculk Dragon Egg	#
+tile.dragonmounts:guardian_dragon_egg.name=Guardian Dragon Egg	#
+tile.dragonmounts:red_dragon_egg.name=Red Dragon Egg	#
+
+action.hint.exit.dm2:phantom_dragon=Tap dismount to dismount	#
+action.hint.exit.dm2:f_phantom_dragon=Tap dismount to dismount	#
+action.hint.exit.dm2:cherry_dragon=Tap dismount to dismount	#
+action.hint.exit.dm2:f_cherry_dragon=Tap dismount to dismount	#
+action.hint.exit.dm2:sculk_dragon=Tap dismount to dismount	#
+action.hint.exit.dm2:guardian_dragon=Tap dismount to dismount	#
+action.hint.exit.dm2:f_guardian_dragon=Tap dismount to dismount	#
+action.hint.exit.dm2:red_dragon=Tap dismount to dismount	#
+ 
+tile.dragonmounts:phantom_scale.name=Phantom Dragon Scale Block
+tile.dragonmounts:phantom_scale=Phantom Dragon Scale Block
+tile.dragonmounts:cherry_scale.name=Sakura Dragon Scale Block
+tile.dragonmounts:cherry_scale=Sakura Dragon Scale Block
+tile.dragonmounts:sculk_scale.name=Sculk Dragon Scale Block
+tile.dragonmounts:sculk_scale=Sculk Dragon Scale Block
+tile.dragonmounts:guardian_scale.name=Guardian Dragon Scale Block
+tile.dragonmounts:guardian_scale=Guardian Dragon Scale Block
+tile.dragonmounts:red_scale.name=Red Dragon Scale Block
+tile.dragonmounts:red_scale=Red Dragon Scale Block
+
+item.dragonmounts:phantom_dragonscales.name=Phantom Dragon Scales	#
+item.dragonmounts:cherry_dragonscales.name=Sakura Dragon Scales	#
+item.spawn_egg.entity.dm2:spawn_cherry.name=Sakura Dragon Spawn Egg
+item.spawn_egg.entity.dm2:spawn_phantom.name=Phantom Dragon Spawn Egg
+item.dragonmounts:sculk_dragonscales.name=Sculk Dragon Scales	#
+item.spawn_egg.entity.dm2:spawn_sculk.name=Sculk Dragon Spawn Egg
+item.dragonmounts:guardian_dragonscales.name=Guardian Dragon Scales	#
+item.spawn_egg.entity.dm2:spawn_guardian.name=Guardian Dragon Spawn Egg
+item.spawn_egg.entity.dm2:spawn_red.name=Red Dragon Spawn Egg
+item.dragonmounts:red_dragonscales.name=Red Dragon Scales	#
+
+item.dragonmounts:cherry_dragonscale_helmet.name=Sakura Dragon Helmet	#
+item.dragonmounts:cherry_dragonscale_chestplate.name=Sakura Dragon Chestplate	#
+item.dragonmounts:cherry_dragonscale_leggings.name=Sakura Dragon Leggings	#
+item.dragonmounts:cherry_dragonscale_boots.name=Sakura Dragon Boots	#
+item.dragonmounts:phantom_dragonscale_helmet.name=Phantom Dragon Helmet	#
+item.dragonmounts:phantom_dragonscale_chestplate.name=Phantom Dragon Chestplate	#
+item.dragonmounts:phantom_dragonscale_leggings.name=Phantom Dragon Leggings	#
+item.dragonmounts:phantom_dragonscale_boots.name=Phantom Dragon Boots	#
+item.dragonmounts:sculk_dragonscale_helmet.name=Sculk Dragon Helmet	#
+item.dragonmounts:sculk_dragonscale_chestplate.name=Sculk Dragon Chestplate	#
+item.dragonmounts:sculk_dragonscale_leggings.name=Sculk Dragon Leggings	#
+item.dragonmounts:sculk_dragonscale_boots.name=Sculk Dragon Boots	#
+item.dragonmounts:guardian_dragonscale_helmet.name=Guardian Dragon Helmet	#
+item.dragonmounts:guardian_dragonscale_chestplate.name=Guardian Dragon Chestplate	#
+item.dragonmounts:guardian_dragonscale_leggings.name=Guardian Dragon Leggings	#
+item.dragonmounts:guardian_dragonscale_boots.name=Guardian Dragon Boots	#
+item.dragonmounts:red_dragonscale_helmet.name=Red Dragon Helmet	#
+item.dragonmounts:red_dragonscale_chestplate.name=Red Dragon Chestplate	#
+item.dragonmounts:red_dragonscale_leggings.name=Red Dragon Leggings	#
+item.dragonmounts:red_dragonscale_boots.name=Red Dragon Boots	#
+
+tooltip.dragonmounts.red=Red
+tooltip.dragonmounts.cherry=Sakura
+tooltip.dragonmounts.phantom=Phantom
+tooltip.dragonmounts.sculk=Sculk
+tooltip.dragonmounts.guardian=Guardian
+
+tile.dragonmountsplus:phantom1_head_block.name=Phantom Dragon Head
+item.dragonmountsplus:phantom1_head=Phantom Dragon Head
+tile.dragonmountsplus:phantom_head_block.name=Phantom Dragon Head
+item.dragonmountsplus:phantom_head=Phantom Dragon Head
+tile.dragonmountsplus:red_head_block.name=Red Dragon Head
+item.dragonmountsplus:red_head=Red Dragon Head
+tile.dragonmountsplus:sculk_head_block.name=Sculk Dragon Head
+item.dragonmountsplus:sculk_head=Sculk Dragon Head
+tile.dragonmountsplus:cherry1_head_block.name=Sakura Dragon Head
+item.dragonmountsplus:cherry1_head=Sakura Dragon Head
+tile.dragonmountsplus:cherry_head_block.name=Sakura Dragon Head
+item.dragonmountsplus:cherry_head=Sakura Dragon Head
+tile.dragonmountsplus:guardian1_head_block.name=Guardian Dragon Head
+item.dragonmountsplus:guardian1_head=Guardian Dragon Head
+tile.dragonmountsplus:guardian_head_block.name=Guardian Dragon Head
+item.dragonmountsplus:guardian_head=Guardian Dragon Head

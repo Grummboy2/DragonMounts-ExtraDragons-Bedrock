@@ -1,0 +1,61 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "dragonmounts:aether_dragonscales",
+              "name": "dm:itemGroup.name.scales"
+            },
+            "items": [
+              "dragonmounts:sculk_dragonscales",
+              "dragonmounts:cherry_dragonscales",
+              "dragonmounts:phantom_dragonscales",
+              "dragonmounts:guardian_dragonscales",
+              "dragonmounts:red_dragonscales"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "nature",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "dragonmounts:aether_dragon_egg",
+              "name": "dm:itemGroup.name.dragon_eggs"
+            },
+            "items": [
+              "dragonmounts:sculk_dragon_egg",
+              "dragonmounts:phantom_dragon_egg",
+              "dragonmounts:cherry_dragon_egg",
+              "dragonmounts:guardian_dragon_egg",
+              "dragonmounts:red_dragon_egg"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "construction",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "dragonmounts:aether_scale",
+              "name": "dm:itemGroup.name.dragon_scale"
+            },
+            "items": [
+              "dragonmounts:sculk_scale",
+              "dragonmounts:phantom_scale",
+              "dragonmounts:cherry_scale",
+              "dragonmounts:guardian_scale",
+              "dragonmounts:red_scale"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
